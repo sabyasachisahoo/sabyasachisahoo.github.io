@@ -1,0 +1,18 @@
+.footer {
+    background-color: #0e1e19;
+    color: #ccc;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .footer .quote {
+    font-style: italic;
+    color: #ffdd57;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer p {
+    margin: 0.3rem 0;
+  }
+  

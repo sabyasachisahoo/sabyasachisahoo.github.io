@@ -1,0 +1,93 @@
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffdd57;
+  }
+  
+  .nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: #ffdd57;
+  }
+  
+  .resume-link {
+    border: 1px solid #ffdd57;
+    padding: 8px 8px;
+    border-radius: 4px;
+  }
+  
+  /* Base styles as before */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    background-color: #1f4037;
+    color: white;
+    position: fixed;
+    width: 96%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+
+  .profile-logo-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .nav {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #1f4037;
+      flex-direction: column;
+      width: 100%;
+      display: none;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .nav.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
