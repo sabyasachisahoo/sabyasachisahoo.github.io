@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio-beta",
+  "name": "sabyasachisahoo.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start"
   },
   "dependencies": {
