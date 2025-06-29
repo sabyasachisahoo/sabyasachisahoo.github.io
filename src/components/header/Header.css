@@ -21,6 +21,8 @@
     border: 1px solid #ffdd57;
     padding: 8px 8px;
     border-radius: 4px;
+    margin-top: -10px;
+    margin-right: 40px;
   }
   
   /* Base styles as before */
@@ -32,7 +34,7 @@
     background-color: #1f4037;
     color: white;
     position: fixed;
-    width: 96%;
+    width: 100%;
     top: 0;
     z-index: 1000;
   }
@@ -90,4 +92,30 @@
       display: flex;
     }
   }
+
+@media (min-width: 1920px) {
+   .header {
+    max-width: 1870px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header {
+    max-width: 960px;
+  }
+}
+
+/* Tablets and small screens (480px to 767px) */
+@media (max-width: 767px) and (min-width: 480px) {
+  .header {
+    max-width: 100%;
+  }
+}
+
+/* Mobile phones (less than 480px) */
+@media (max-width: 479px) {
+  .header {
+    max-width: 100%;
+  }
+}
   
