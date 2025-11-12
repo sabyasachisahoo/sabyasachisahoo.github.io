@@ -26,11 +26,7 @@ const AboutMe = () => {
             experiences and bringing creative ideas to life in the browser.
           </p> */}
           <p>
-            I am a Senior Front-End Developer, specializing in languages like
-            JavaScript and TypeScript, and frameworks such as React JS, Redux,
-            and Angular. My expertise extends to Micro Frontend Architecture,
-            where I apply cutting-edge development techniques to create modular,
-            scalable solutions.
+            Proactive Senior Frontend Engineer with expertise in React, Redux & JavaScript, I currently serve as a Team Lead UI @ MBRDI(Client), specializing in creating complex dashboards using modern frameworks such as React (v16–v18), Redux, and Angular. My technical expertise extends to designing and implementing Micro Frontend Architectures with performance and stability as the major impact area of improvement in any web application.
           </p>
           <h2>My Techstack</h2>
           <div className="skills">
